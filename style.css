@@ -141,6 +141,7 @@
             font-weight: bold;
             color: white;
             line-height: 1.5em;
+            left: 0px;
         }
 
         #parag2 {
@@ -227,32 +228,24 @@
             display: flex;
             float: left;
         }
-        
-        #div1Img1:hover {
-            cursor: pointer;
-        }
 
-        #div1Img1:active {
-            animation-duration: 0.5s;
-            animation: slidein;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-            animation-timing-function: ease-out;
-            animation-duration: 1s;
-        }
-
-        @keyframes slidein {
+        @keyframes slideRight {
             from {
-                background-color: white;
-                border-radius: 5%;
-                scale: 1;
+                left: 0px;
             }
 
             to {
-                background-color: blueviolet;
-                background-image: none;
-                border-radius: 100%;
-                scale: 0.3;
+                left: 600px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
             }
         }
 
