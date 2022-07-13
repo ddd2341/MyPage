@@ -229,26 +229,6 @@
             float: left;
         }
 
-        @keyframes slideRight {
-            from {
-                left: 0px;
-            }
-
-            to {
-                left: 600px;
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 1;
-            }
-
-            to {
-                opacity: 0;
-            }
-        }
-
         #footer {
             font-size: 15px;
             color: white;
